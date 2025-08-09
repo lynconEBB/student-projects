@@ -1,0 +1,23 @@
+int a.1 = 5, 1n = 3; i;
+float b = 2.4;
+int ul[4] = {'p', 5, 4.5};
+int i;
+y = 6;
+
+while ( test++ ) {
+    break;
+}
+c = 43;
+if (while) {
+    print(4);
+} 
+
+while(ul[4]) {
+    b = 4 + 4.5;
+    for (g = 4; g <= 43; g++) {
+        scan(b);
+    }
+}
+
+whike(1n--) {
+    a.1 += a.1; }

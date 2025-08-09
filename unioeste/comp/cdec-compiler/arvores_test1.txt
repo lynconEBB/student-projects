@@ -1,0 +1,104 @@
+============ Árvore Sintática ============
+program 3
+ |--imports 2
+ |   |--imports 0
+ |   |--import 3
+ |   |   |--IMPORT 0
+ |   |   |--STRLIT 0
+ |   |   |--SEMI 0
+ |--declarations 2
+ |   |--declarations 2
+ |   |   |--declarations 2
+ |   |   |   |--declarations 1
+ |   |   |   |   |--declaration 3
+ |   |   |   |   |   |--type 1
+ |   |   |   |   |   |   |--INT 0
+ |   |   |   |   |   |--names 1
+ |   |   |   |   |   |   |--initialization 1
+ |   |   |   |   |   |   |   |--scalar_initialization 3
+ |   |   |   |   |   |   |   |   |--ID 0
+ |   |   |   |   |   |   |   |   |--ASSIGN 0
+ |   |   |   |   |   |   |   |   |--ILIT 0
+ |   |   |   |   |   |--SEMI 0
+ |   |   |   |--declaration 3
+ |   |   |   |   |--type 1
+ |   |   |   |   |   |--CHAR 0
+ |   |   |   |   |--names 3
+ |   |   |   |   |   |--names 3
+ |   |   |   |   |   |   |--names 3
+ |   |   |   |   |   |   |   |--names 1
+ |   |   |   |   |   |   |   |   |--initialization 1
+ |   |   |   |   |   |   |   |   |   |--scalar_initialization 3
+ |   |   |   |   |   |   |   |   |   |   |--ID 0
+ |   |   |   |   |   |   |   |   |   |   |--ASSIGN 0
+ |   |   |   |   |   |   |   |   |   |   |--ILIT 0
+ |   |   |   |   |   |   |   |--COMMA 0
+ |   |   |   |   |   |   |   |--initialization 1
+ |   |   |   |   |   |   |   |   |--vector_initialization 6
+ |   |   |   |   |   |   |   |   |   |--ID 0
+ |   |   |   |   |   |   |   |   |   |--array 3
+ |   |   |   |   |   |   |   |   |   |   |--LBRACK 0
+ |   |   |   |   |   |   |   |   |   |   |--ILIT 0
+ |   |   |   |   |   |   |   |   |   |   |--RBRACK 0
+ |   |   |   |   |   |   |   |   |   |--ASSIGN 0
+ |   |   |   |   |   |   |   |   |   |--LBRACE 0
+ |   |   |   |   |   |   |   |   |   |--error 0
+ |   |   |   |   |   |   |   |   |   |--RBRACE 0
+ |   |   |   |   |   |   |--COMMA 0
+ |   |   |   |   |   |   |--variable 1
+ |   |   |   |   |   |   |   |--ID 0
+ |   |   |   |   |   |--COMMA 0
+ |   |   |   |   |   |--variable 1
+ |   |   |   |   |   |   |--ID 0
+ |   |   |   |   |--SEMI 0
+ |   |   |--declaration 3
+ |   |   |   |--type 1
+ |   |   |   |   |--CHAR 0
+ |   |   |   |--names 1
+ |   |   |   |   |--initialization 1
+ |   |   |   |   |   |--scalar_initialization 3
+ |   |   |   |   |   |   |--ID 0
+ |   |   |   |   |   |   |--ASSIGN 0
+ |   |   |   |   |   |   |--ILIT 0
+ |   |   |   |--SEMI 0
+ |   |--declaration 3
+ |   |   |--type 1
+ |   |   |   |--STRING 0
+ |   |   |--names 1
+ |   |   |   |--initialization 1
+ |   |   |   |   |--scalar_initialization 3
+ |   |   |   |   |   |--ID 0
+ |   |   |   |   |   |--ASSIGN 0
+ |   |   |   |   |   |--STRLIT 0
+ |   |   |--SEMI 0
+ |--statements 2
+ |   |--statements 2
+ |   |   |--statements 2
+ |   |   |   |--statements 2
+ |   |   |   |   |--statements 0
+ |   |   |   |   |--statement 2
+ |   |   |   |   |   |--error 0
+ |   |   |   |   |   |--SEMI 0
+ |   |   |   |--statement 2
+ |   |   |   |   |--statement 4
+ |   |   |   |   |   |--PRINT 0
+ |   |   |   |   |   |--LPAREN 0
+ |   |   |   |   |   |--variable 1
+ |   |   |   |   |   |   |--ID 0
+ |   |   |   |   |   |--RPAREN 0
+ |   |   |   |   |--SEMI 0
+ |   |   |--statement 2
+ |   |   |   |--statement 4
+ |   |   |   |   |--PRINT 0
+ |   |   |   |   |--LPAREN 0
+ |   |   |   |   |--STRLIT 0
+ |   |   |   |   |--RPAREN 0
+ |   |   |   |--SEMI 0
+ |   |--statement 2
+ |   |   |--statement 4
+ |   |   |   |--SCAN 0
+ |   |   |   |--LPAREN 0
+ |   |   |   |--variable 1
+ |   |   |   |   |--ID 0
+ |   |   |   |--RPAREN 0
+ |   |   |--SEMI 0

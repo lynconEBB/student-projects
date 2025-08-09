@@ -1,0 +1,31 @@
+import "test2.cd";
+
+int a = 5, n = 3, i;
+float b = 2.3;
+double c = 34.54;
+char ch = 'l', char2;
+str str1 = "compiladores";
+
+// comentário ;
+
+/*
+comentario com várias linhas
+*/
+
+for(i = 0; i < 10; i++) {
+    char2 = ch;
+    print(char2);
+    print('\n');
+}
+
+while(n--){
+    scan(c);
+    a = a + 1;
+}
+
+if(a > 2) {
+    a = 2;
+    i = a - n + 1;
+} else {
+   print("ola mundo"); 
+}
