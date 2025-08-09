@@ -1,0 +1,63 @@
+ tbFuncionario(
+(pk)idFuncionario int,
+nome vachar(15),
+CPF varchar(11),
+RG varchar(9),
+Rua varchar(30),
+Numero int,
+Cidade varchar(30),
+bairro varchar(25),
+);
+
+ tbEntregador(
+Carteira_de_motorista varchar(11),
+veiculo varchar(45),
+);
+
+ tbMadeira(
+(pk)idMadeira int,
+preco decimal(6,2) not null,
+tipo varchar(30) not null,
+nome varchar(45) not null,
+);
+
+ tbEmpresa(
+(pk)idEmpresa int,
+CNPJ varchar(45),
+nome varchar(25),
+Rua varchar(30),
+Numero int,
+Cidade varchar(30),
+bairro varchar(25),
+);
+
+tbContato(
+(fk)idEmpresa int,
+(fk)idFuncionario int,
+telefone char(11),
+tipo tinyint,
+);
+
+ tbVenda(
+(pk)idVenda int,
+data date,
+horario time(4),
+total decimal(9,2),
+(fk)idFuncionario int,
+(fk)idEmpresa int,
+(fk)idEntregador int,
+);
+
+ tbItem(
+preco_parcial decimal(6,2),
+(fk)idMadeira int,
+(fk)idVenda int,
+dimensoes decimal(5),
+);
+
+ tbParcela(
+(pk)idParcela int,
+valor decimal(6,2),
+vencimento date,
+(fk)idVenda,
+);
